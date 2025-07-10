@@ -446,7 +446,7 @@ function EventsPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          All Events
+          Events & Activities
         </motion.h1>
         <EventsGrid ref={ref}>
           {currentEvents.map((event, index) => (

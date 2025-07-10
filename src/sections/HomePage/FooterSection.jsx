@@ -95,6 +95,11 @@ function FooterSection() {
                 <p className="hover:underline">&gt; IEDC NEST</p>
               </Link>
              </motion.div>
+             <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.6 }} viewport={{ once: true }}>
+              <Link href={"https://sahrdayatbiihub.com/"}>
+                <p className="hover:underline">&gt; Sahrdaya TBII HUB</p>
+              </Link>
+             </motion.div>
             <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.7 }} viewport={{ once: true }}>
               <Link href={"https://sahrdaya.ac.in"}>
                 <p className="hover:underline">
@@ -108,8 +113,9 @@ function FooterSection() {
           <h3 className="font-bold text-xl mb-5 bg-clip-text text-transparent bg-gradient-to-r from-white to-orange-200">Contact Us</h3> {/* Applied gradient text */}
           <div className="flex flex-col gap-3 mb-6 text-orange-100"> {/* Increased gap and adjusted text color */}
              <motion.p initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.4 }} viewport={{ once: true }}>Jibin Jose - jibinjose@sahrdaya.ac.in</motion.p>
-             <motion.p initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.5 }} viewport={{ once: true }}> Sebin Davis K - sebindavis@sahrdaya.ac.in</motion.p>
-             <motion.p initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.6 }} viewport={{ once: true }}> Malavika Chandran - malavika323716@sahrdaya.ac.in</motion.p>
+             <motion.p initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.5 }} viewport={{ once: true }}>Sebin Davis K - sebindavis@sahrdaya.ac.in</motion.p>
+             <motion.p initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.6 }} viewport={{ once: true }}>Jasmy Davis - jasmidavis@sahrdaya.ac.in</motion.p>
+             <motion.p initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.6 }} viewport={{ once: true }}>Malavika Chandran - malavika323716@sahrdaya.ac.in</motion.p>
           </div>
           <div className="flex space-x-5"> {/* Increased space-x */}
             <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>

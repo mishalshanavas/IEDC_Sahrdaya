@@ -218,7 +218,7 @@ const ROLES = [
   "CEO", "CMO", "CCMO", "CFO", "CCO", "CTO", "COO",
   "Senior Community Mentor", "Senior Finance & Documentation Mentor",
   "Senior Operations Mentor", "Senior Marketing & Branding Mentor",
-  "Senior Mentor", "Club Lead", "Joint Club Lead"
+  "Senior Mentor", "Faculty Advisor","Club Lead", "Joint Club Lead"
 ];
 
 const People = () => {

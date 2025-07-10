@@ -240,7 +240,7 @@ const UpcomingEventsDashboard = () => {
                     {[
                       ["Title", "title", "text"],
                       ["Date", "date", "date"],
-                      ["Society", "Society", "text"],
+                      ["Club", "Society", "text"],
                       ["Description", "description", "textarea"],
                       ["Media Path", "mediaPath", "file"],
                       ["Meet Link", "meetlink", "text"],
@@ -341,7 +341,7 @@ const UpcomingEventsDashboard = () => {
  {[
                       ["Title", "title", "text"],
                       ["Date", "date", "date"],
-                      ["Society", "Society", "text"],
+                      ["Club", "Society", "text"],
                       ["Description", "description", "textarea"],
                       ["Media Path", "mediaPath", "file"],
                       ["Meet Link", "meetlink", "text"],

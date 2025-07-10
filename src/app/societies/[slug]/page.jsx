@@ -14,10 +14,9 @@ import {
   fetchSocietyDataById,
 } from "@/utils/FirebaseFunctions";
 import { useRouter } from "next/navigation";
-import { useEffect, useState, use } from "react";
+import { useEffect, useState } from "react";
 
-function SocietyPage(props) {
-  const params = use(props.params);
+function SocietyPage({ params }) {
   const router = useRouter();
   const [societyData, setSocietyData] = useState(null);
   const [latestEvents, setLatestEvents] = useState([]);

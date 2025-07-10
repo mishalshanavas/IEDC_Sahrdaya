@@ -222,6 +222,7 @@ const Navbar = () => {
           </div>
 
           <NavLink href="/gallery">Gallery</NavLink>
+          <NavLink href="https://sahrdayatbiihub.com/">Incubation</NavLink>
           <NavLink href="mailto:iedcbootcamp@sahrdaya.ac.in">Contact Us</NavLink>
         </div>
 

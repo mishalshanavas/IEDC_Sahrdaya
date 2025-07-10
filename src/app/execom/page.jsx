@@ -107,9 +107,10 @@ const priorityOrder = {
 "Senior Finance & Documentation Mentor": 13,
 "Senior Operations Mentor": 14,
 "Senior Marketing & Branding Mentor": 15,
-"Senior Mentor": 16,
-"Club Lead": 17,
-"Joint Club Lead": 18
+"Faculty Advisor": 16,
+"Senior Mentor": 17,
+"Club Lead": 18,
+"Joint Club Lead": 19
 };
 const societyPriorityOrder = {
   Main: 1,

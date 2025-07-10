@@ -131,7 +131,7 @@ function LatestEventSection({ events, title, showFullEventsButton }) {
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.5 }}
     >
-      <Title>{title}</Title>
+      <Title>{"Events & Activities"}</Title>
       {events.length === 0 ? (
         <EmptyStateContainer>
           <span className="emoji">🛑 404 NOT FOUND 🛑</span>
